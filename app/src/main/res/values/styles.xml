@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back</item>
+        <item name="spinnerStyle">@style/MySpinnerStyle</item>
+        <item name="spinnerDropDownItemStyle">@style/mySpinnerDropdownItemStyle</item>
+        <item name="android:spinnerItemStyle">@style/mySpinnerItemStyle</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="editTextStyle">@style/EditTextStyle</item>
+        <item name="android:editTextColor">@color/edittext_text_state_list</item>
+    </style>
+
+    <style name="MySpinnerStyle" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:popupBackground">@color/white</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="mySpinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="mySpinnerDropdownItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="backgroundTint">@color/edittext_line_state_list</item>
+    </style>
+
+</resources>
